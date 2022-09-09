@@ -22,7 +22,7 @@ class LinkedList:
     
     def find_node(self, value_to_find):
         current_node = self.head
-        while current_node.next != None:
+        while current_node != None:
             if current_node.value == value_to_find:
                 return True
             else:
